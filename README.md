@@ -20,11 +20,10 @@ A infraestrutura do projeto consiste em:
     +-----------+
 ```
 
+---
 
-=========================================================================
   Arduino Uno 		 - SERVIDOR (Escravo) MODBUS RTU via porta serial
   Dashboard Superviśorio - CLIENTE  (Mestre)  MODBUS RTU via porta serial
-=========================================================================
 
 ---
 
@@ -56,22 +55,23 @@ Instruções para execução do `Dashboard Supervisório`:
 # Entre no diretório `dashboard`
 cd dashboard
 
-# Criando a virtual environment (venv)
+# Crie a ambiente virtual - virtual environment (venv)
 python -m venv venv
 
-# Acessando a venv
+# Acesse o ambiente virtual - venv
 source venv/bin/activate
 
-# Instalando requirements
+# Instale os requisitos - requirements
 (venv) pip install -r requirements.txt
 
-# Executando dashboard_supervisorio.py
+# Execute o dashboard_supervisorio.py
 (venv) python dashboard_supervisorio.py
 
-# Criando arquivo executável
+# Crie arquivo executável
 (venv) pyinstaller --onefile --noconsole --collect-all customtkinter dashboard_supervisorio.py
+
+# O arquivo executável é criado no diretório `dist`
 ```
 
-O arquivo executável é criado no diretório `dist`.
 
 
