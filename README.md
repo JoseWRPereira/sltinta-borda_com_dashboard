@@ -5,7 +5,7 @@ Projeto de aquisição, tratamento e exibição de dados de máquina industrial
 para situação de aprendizagem na disciplina de Inteligência Artificial.
 
 
-A infraestrutura do projeto consiste em:
+## Infraestrutura do projeto
 
 ```
    +-------------+                              +--------------+
@@ -20,10 +20,8 @@ A infraestrutura do projeto consiste em:
     +-----------+
 ```
 
----
-
-  Arduino Uno 		 - SERVIDOR (Escravo) MODBUS RTU via porta serial
-  Dashboard Superviśorio - CLIENTE  (Mestre)  MODBUS RTU via porta serial
+- Arduino Uno 		 - SERVIDOR (Escravo) MODBUS RTU via porta serial
+- Dashboard Superviśorio - CLIENTE  (Mestre)  MODBUS RTU via porta serial
 
 ---
 
@@ -50,7 +48,8 @@ A infraestrutura do projeto consiste em:
 
 ---
 
-Instruções para execução do `Dashboard Supervisório`:
+## Instruções para execução do `Dashboard Supervisório`
+
 ```bash
 # Entre no diretório `dashboard`
 cd dashboard
