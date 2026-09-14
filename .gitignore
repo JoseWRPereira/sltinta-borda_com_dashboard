@@ -1,0 +1,4 @@
+dashboard/build
+dashboard/dist
+dashboard/venv
+dashboard/*.spec
